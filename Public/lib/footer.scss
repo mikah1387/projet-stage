@@ -1,0 +1,134 @@
+.footer{
+    position: relative;
+        height:82vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), center  / cover url('/lib/imagescss/footer3.jpg');
+        background-attachment: fixed;
+    //    margin-top: 150px;
+       z-index: 2;
+        // display: flex; 
+        // justify-content: space-between;
+      
+        .reserve_us{
+       width: 100%;
+       height: 50%;
+       background-color: rgba(0, 0, 0, 0.759);
+       backdrop-filter: blur(3px);
+
+       @extend%flex;
+       align-items: flex-start;
+         .contain{
+         
+        width: 70%;
+        height: 87%;
+        border-bottom: 2px solid $gold;
+        border-top: 2px solid $gold;
+        margin-top: 20px;
+        
+          }
+       
+
+        }
+        p{
+
+            color: $gold;
+            line-height: 2rem;
+            margin: 10px auto;
+            text-align: center;
+            
+            font-size: 0.8rem;
+        }
+        .pfooter{
+
+            font-size: 1.5rem;
+        
+        }
+        .btn_reserve{
+
+            margin: 10px auto;
+            width: 190px;
+            font-size: 0.8rem;
+         }
+        .contact_us{
+            width: 100%;
+            height: 50%;
+            background: rgba(0, 0, 0, 0.759);
+       backdrop-filter: blur(3px);
+       @extend %flex;
+       flex-direction: column;
+    // flex-wrap: wrap;
+       .contain2{
+        @extend %flex;
+        width: 70%;
+        height: 80%;
+        border-bottom: 2px solid $gold;
+        border-top: 2px solid $gold;
+          }
+        .icons{
+
+            
+            a{
+                // display: flex;
+                @extend%flex;
+                z-index: 20;
+                border: 1px solid $gold;
+                margin: 10px 20px;
+                height:80px ;
+                width: 80px;
+                border-radius: 50%;
+                color: $gold;
+                transition: all 0.3s;
+                animation: rotation 14s linear infinite;
+                // &::before{
+                //     content: "";
+                //     display: block;
+                //     background: center center/contain no-repeat url(lib/imagescss/facebook.svg);
+                //     width: 30px;
+                //     height: 30px;
+                //     transition: all 0.3s;
+
+                // }
+                svg{
+
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    fill :$gold;
+                    z-index: 21;
+                    transition: all 0.3s;
+                    &:hover{
+                        fill:black;
+                        
+                    }
+                }
+                &:hover{
+                    
+                    background-color: $gold;
+                   color: #0E0906;
+
+                }
+
+                .fab{
+                    display: block;
+                   
+                }
+            }
+         }
+        
+     
+             }
+            
+        .links-footer{
+    
+            @extend %flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 8px 0;
+            a{
+                display: block;
+                color: $gold;
+                font-size: 0.6rem;
+                margin: 0 10px 2px ;
+            }
+        }
+      
+    }

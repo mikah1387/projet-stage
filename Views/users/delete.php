@@ -1,0 +1,1 @@
+<h1> Ce compte a été bien suprimer par l'admin  </h1>
